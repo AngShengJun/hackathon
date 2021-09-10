@@ -6,9 +6,7 @@ Based on the dataset provided in Kaggle on 2015 Traffic data, use the appropriat
 
 ___
 
-Administrative Notes:
-
-## Important 
+## Important Administrative Notes:
 
 **Datasets** are within the `archive` folder. As gitHub has a file size limitation of 25MB, the **traffic dataset is split into several files**. **After downloading the `archive` folder**, `archive`, please navigate into the archive folder, **do the following**:
 
@@ -20,9 +18,11 @@ Administrative Notes:
 
 4. Please procced to run the jupyter notebook
 
-   
+   ___
 
-**Saved model** In interest of time, the best performing model is saved as `bestModel.sav` pickle file. 
+**Saved model** 
+
+In interest of time, the best performing model is saved as `bestModel.sav` pickle file. 
 
 Alternative code cells are provided along with prompters within the Jupyter notebook for readers to load the pickled model should the tuning of the model take too long to complete.
 
