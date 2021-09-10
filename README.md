@@ -4,6 +4,28 @@
 
 Based on the dataset provided in Kaggle on 2015 Traffic data, use the appropriate algorithms and models to find out the top 5 most obvious patterns from this data
 
+___
+
+Administrative Notes:
+
+## Important 
+
+**Datasets** are within the `archive` folder. As gitHub has a file size limitation of 25MB, the **traffic dataset is split into several files**. **After downloading the `archive` folder**, `archive`, please navigate into the archive folder, **do the following**:
+
+1. Right-click on the 1st file, `dot_traffic_2015.txt.gz.gz.001`
+
+2. Select `7-Zip`, followed by **extract to "dot_traffic_2015.txt.gz\"
+
+3. A folder named `dot_traffic_2015.txt.gz` will be created within the `archive` folder
+
+4. Please procced to run the jupyter notebook
+
+   
+
+**Saved model** In interest of time, the best performing model is saved as `bestModel.sav` pickle file. 
+
+Alternative code cells are provided along with prompters within the Jupyter notebook for readers to load the pickled model should the tuning of the model take too long to complete.
+
 ---
 
 **Jupyter Notebook Organization**
@@ -60,13 +82,7 @@ Based on the insights gathered from the observations, the problem statement is r
 
 ------
 
-Note:
 
-Datasets are within the `archive` folder.
-
-In interest of time, the best performing model is saved as `bestModel.sav` pickle file. 
-
-Alternative code cells are provided along with prompters within the Jupyter notebook for readers to load the pickled model should the tuning of the model take too long to complete.
 
 ___
 
