@@ -1,14 +1,22 @@
 # Project Overview
 
-### Initial Problem Statement :book:
+## Problem Statement :book:
 
 Based on the dataset provided in Kaggle on 2015 Traffic data, use the appropriate algorithms and models to find out the top 5 most obvious patterns from this data
 
+**Observations**
+
+Corresponding observations are documented within the jupyter notebook in markdown cells marked with `Observation number`. Data visualizations and a model (K-Means clustering) is used to derive the observations.
+
+**Reframed Problem Statement**
+
+Based on the insights gathered from the observations, the problem statement is reframed and several models built to predict traffic volume. These are evaluated to select the best predictive model for subsequent model tuning. All model performance metrics are recorded within the notebook.
+
 ___
 
-## Important Administrative Notes:
+## Important Administrative Notes
 
-**Datasets** are within the `archive` folder. As gitHub has a file size limitation of 25MB, the **traffic dataset is split into several files**. **After downloading the `archive` folder**, `archive`, please navigate into the archive folder, **do the following**:
+**1. Datasets** are within the `archive` folder. As gitHub has a file size limitation of 25MB, the **traffic dataset is split into several files**. **After downloading the `archive` folder**, `archive`, please navigate into the archive folder, **do the following**:
 
 1. Right-click on the 1st file, `dot_traffic_2015.txt.gz.gz.001`
 
@@ -20,7 +28,7 @@ ___
 
    ___
 
-**Saved model** 
+**2. Saved model** 
 
 In interest of time, the best performing model is saved as `bestModel.sav` pickle file. 
 
@@ -28,13 +36,13 @@ Alternative code cells are provided along with prompters within the Jupyter note
 
 ---
 
-**Jupyter Notebook Organization**
+**3. Jupyter Notebook**
 
 The Jupyter notebook in named `ocbc_Hack_it-version2` . 
 
 ----
 
-**Data Dictionary**
+**4. Data Dictionaries**
 
 To facilitate understanding of column headers and data values, reference document '2001 Traffic Management Guide, Chapter 6' is consulted. This reference document, titled `2001_TMG_Chapter_6` is also provided in the repository for ease of reference.
 
@@ -57,8 +65,6 @@ The data dictionaries for the two datasets below summarizes data understanding r
 | sample_type_for_vehicle_classification | H = Station used for Heavy Vehicle Travel Information System<br/>N = Station not used for Heavy Vehicle Travel Information System |
 | second_type_of_sensor                  | If there are two types of sensors at the station, code the second using the same codes as Type of Sensor. Otherwise, code "N" for none. |
 
-
-
 **Traffic Data**
 
 | Column                   | Description                                                  |
@@ -71,18 +77,4 @@ The data dictionaries for the two datasets below summarizes data understanding r
 
 
 ____
-
-**Observations**
-
-Corresponding observations are documented within the jupyter notebook in markdown cells marked with `Observation number`. Data visualizations and a model (K-Means clustering) is used to derive the observations.
-
-**Reframed Problem Statement**
-
-Based on the insights gathered from the observations, the problem statement is reframed and several models built to predict traffic volume. These are evaluated to select the best predictive model for subsequent model tuning. All model performance metrics are recorded within the notebook.
-
-------
-
-
-
-___
 
